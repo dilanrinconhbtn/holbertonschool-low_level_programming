@@ -7,8 +7,5 @@
  */
 int main(void)
 {
-	/**
-	 * my_function - is print with put 
-	 */
 	puts("\"Programming is like building a multilingual puzzle");
 }
