@@ -12,9 +12,9 @@ int main(void)
 
 	for (x = 0; x <= 8; x++)
 	{
-		for (y = 1; y <= 9; y++)
+		for (y=1; y <= 9; y++)
 		{
-			if (x != y)
+			if (y > x)
 			{
 				putchar(x + '0');
 				putchar(y + '0');
