@@ -14,10 +14,10 @@ int main(void)
 		putchar(x);
 		if (x < 9)
 		{
-			putchar(' ');
+			putchar(',');
 		}
 	}
-	putchar('$');
+	putchar(' ');
 	putchar('\n');
 	return (0);
 }
