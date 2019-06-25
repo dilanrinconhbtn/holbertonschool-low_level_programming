@@ -7,20 +7,8 @@
  */
 int add(int x, int y)
 {
-	int f;
-	int l;
-	int r;
+	int a;
 
-	r = x + y;
-	l = r % 10;
-	f = r / 10;
-	if (r < 10)
-	{
-		_putchar (r + '0');
-	}
-	else
-	{
-		_putchar (f + '0');
-	}
-	return (l);
+	a = x + y;
+	return (a);
 }
