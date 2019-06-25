@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * print_last_digit - print last digit
+ * print_last_digit - print last digit of a number
  * @z: comparation for do the absolute
- * Return: Always 0.
+ * Return: variable z with last digit.
  */
 int print_last_digit(int z)
 {
