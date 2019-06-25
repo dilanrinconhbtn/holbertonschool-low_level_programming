@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
  * print_alphabet - print 1 alphabet to a to z.
- * int x for do a lopp
- * Return: Always 0.
+ * @x: for do a lopp
+ * 
  */
 void print_alphabet(void)
 {
@@ -12,4 +12,5 @@ void print_alphabet(void)
 	{
 		_putchar(x);
 	}
+	_putchar('\n');
 }
