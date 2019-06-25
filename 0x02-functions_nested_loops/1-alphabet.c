@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * print_alphabet - print 1 alphabet to a to z.
- * @x: for do a lopp
+ * print_alphabet - print alphabet to a to z.
+ * @x for a lo0p
  *
  */
 void print_alphabet(void)
