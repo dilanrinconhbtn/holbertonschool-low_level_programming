@@ -1,9 +1,8 @@
 #include "holberton.h"
-
 /**
- * Holberton - write Holberton
+ * main - Print with protype putchar
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
