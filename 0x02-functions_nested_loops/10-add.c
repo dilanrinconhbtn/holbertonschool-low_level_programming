@@ -2,9 +2,9 @@
 
 /**
  * add - sum two numbers
- * @x:  characters 1 to add
+ * @x: characters 1 to add
  * @y: character 2 to add
- * Return: aresults.
+ * Return: a results
  */
 
 int add(int x, int y)
