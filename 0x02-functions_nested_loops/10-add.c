@@ -1,17 +1,12 @@
 #include "holberton.h"
-
 /**
  * add - sum two numbers
- * @x: characters 1 to add
- * @y: character 2 to add
- * Return: a results
+ * @x: first character to add
+ * @y: second character to add
+ *
+ * Return: x+y
  */
-
 int add(int x, int y)
 {
-	int a;
-
-	a = x + y;
-
-	return (a);
+	return (x + y);
 }
