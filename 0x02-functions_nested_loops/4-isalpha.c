@@ -1,18 +1,18 @@
 #include "holberton.h"
 
 /**
- * isalpha - check alphabetic character
- *
+ * _isalpha - check alphabetic character
+ * @c: number for compare
  * Return: Always 0.
  */
 
 int _isalpha(int c)
 {
-	if ( c >= 'a' && c <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
-	else if ( c >= 'A' && c <= 'Z')
+	else if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
