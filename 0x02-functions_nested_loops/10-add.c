@@ -1,10 +1,12 @@
 #include "holberton.h"
+
 /**
- * add - check the code for Holberton School students.
- * @x:  characters to add
- * @y: character to add
- * Return: a.
+ * add - sum two numbers
+ * @x:  characters 1 to add
+ * @y: character 2 to add
+ * Return: aresults.
  */
+
 int add(int x, int y)
 {
 	int a;
