@@ -2,8 +2,9 @@
 
 /**
  * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * aRun for
+ * sum mods 1 and 2
+ * Return: sum .
  */
 
 int main(void)
