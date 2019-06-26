@@ -15,7 +15,7 @@ int main(void)
 	{
 		mod1 = a % 3;
 		mod2 = a % 5;
-		if (mod1 == 0 || mod2 == 0)
+		if (mod1 == 0 && mod2 == 0)
 		{
 			sum = sum + a;
 		}
