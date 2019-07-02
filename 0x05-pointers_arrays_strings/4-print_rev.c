@@ -2,7 +2,7 @@
 
 /**
  * print_rev - check the code for Holberton School students.
- *
+ * @s: compare
  * print rev.
  */
 
