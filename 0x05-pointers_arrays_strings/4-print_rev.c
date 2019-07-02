@@ -13,11 +13,9 @@ void print_rev(char *s)
 
 	while (*word != '\0')
 	{
-		_putchar(*word);
 		word++;
 		count++;
 	}
-	_putchar('\n');
 	i = count - 1;
 	while (i >= 0)
 	{
