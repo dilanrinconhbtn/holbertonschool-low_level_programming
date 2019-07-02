@@ -2,8 +2,8 @@
 
 /**
  * *_strcpy - check the code for Holberton School students.
- * @*dest: destino
- * @*src: source
+ * @dest: destino
+ * @src: source
  * Return: start.
  */
 
@@ -18,5 +18,5 @@ char *_strcpy(char *dest, char *src)
 		src++;
 	}
 	*dest = '\0';
-	return start;
+	return (start);
 }
