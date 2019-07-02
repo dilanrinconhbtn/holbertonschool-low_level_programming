@@ -1,9 +1,10 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * *_strcpy - check the code for Holberton School students.
+ * @*dest: destino
+ * @*src: source
+ * Return: start.
  */
 
 char *_strcpy(char *dest, char *src)
