@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * *cap_string - check the code for Holberton School students.
+ * @text: string to compare
+ * Return: text.
  */
 
 char *cap_string(char *text)
@@ -17,7 +17,7 @@ char *cap_string(char *text)
 	{
 		for (j = 0; j <= 11; j++)
 		{
-			if(text[i] >= 'a' && text[i] <= 'z' && text[i - 1] == signos[j] )
+			if (text[i] >= 'a' && text[i] <= 'z' && text[i - 1] == signos[j])
 			{
 				text[i] = text[i] - 32;
 			}
