@@ -2,9 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * *_strncpy - check the code for Holberton School students.
+ * @dest: destine
+ * @src: source
+ * @n: number of bytes
+ * Return: dest.
  */
 
 char *_strncpy(char *dest, char *src, int n)
