@@ -2,11 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * *rot13 - check the code for Holberton School students.
+ * @text: text to compare
+ * Return: text.
  */
-
 char *rot13(char *text)
 {
 	char alph[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
