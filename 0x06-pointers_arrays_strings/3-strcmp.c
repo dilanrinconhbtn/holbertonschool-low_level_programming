@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * _strcmp - check the code for Holberton School students.
+ * @s1: string 1
+ * @s2: string 2
+ * Return: rest.
  */
 
 int _strcmp(char *s1, char *s2)
