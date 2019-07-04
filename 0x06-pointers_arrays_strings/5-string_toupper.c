@@ -3,7 +3,7 @@
 
 /**
  * *string_toupper - check the code for Holberton School students.
- *
+ * @s: string
  * Return: string.
  */
 
