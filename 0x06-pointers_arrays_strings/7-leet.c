@@ -14,11 +14,11 @@ char *leet(char *text)
 	int i, j;
 
 	i = 0;
-	while(text[i] != '\0')
+	while (text[i] != '\0')
 	{
 		for (j = 0; j <= 9; j++)
 		{
-			if(text[i] == letter[j])
+			if (text[i] == letter[j])
 			{
 				text[i] = numbers[j];
 			}
