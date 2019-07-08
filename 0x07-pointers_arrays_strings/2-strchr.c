@@ -1,9 +1,10 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * *_strchr - check the code for Holberton School students.
+ * @s: string s
+ * @c: character
+ * Return: NULL.
  */
 
 char *_strchr(char *s, char c)
