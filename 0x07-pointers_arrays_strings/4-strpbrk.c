@@ -1,8 +1,9 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * *_strpbrk - check the code for Holberton School students.
+ * @s: pointer
+ * @accept: string
  * Return: Always 0.
  */
 
