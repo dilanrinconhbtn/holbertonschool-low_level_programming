@@ -1,10 +1,10 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * print_diagsums - check the code for Holberton School students.
+ * @a: data
+ * @size: size of array
+ * Return: No.
  */
 
 void print_diagsums(int *a, int size)
