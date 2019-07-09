@@ -2,7 +2,8 @@
 
 /**
  * *_strstr - check the code for Holberton School students.
- *
+ * @haystack: string long
+ * @needle: string short
  * Return: Always 0.
  */
 
