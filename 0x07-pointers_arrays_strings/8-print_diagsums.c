@@ -11,15 +11,13 @@ void print_diagsums(int *a, int size)
 {
 	int i, sumright = 0, sumleft = 0;
 
-	for (i = 0; i < (size * size);)
+	for (i = 0; i < (size * size); i = i + (size + 1))
 	{
 		sumleft = sumleft + a[i];
-		i = i + size + 1;
 	}
-	for (i = 0; i < (size * size) - size;)
+	for (i = 0; i < (size * size) - size; j = j + (size - 1))
 	{
-		i = i + size - 1;
-		sumright = sumright + a[i];
+		sumright = sumright + a[j];
 	}
 	printf("%d, %d\n", sumleft, sumright);
 }
