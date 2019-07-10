@@ -3,11 +3,11 @@
 /**
  * number - check the code for Holberton School students.
  * @n: sqrt number
- * @y:
+ * @y: number
  * Return: Always 0.
  */
 
-int number (int n, int y)
+int number(int n, int y)
 {
 	if (y * y == n)
 	{
@@ -24,12 +24,12 @@ int number (int n, int y)
 }
 
 /**
- *_sqrt_recursion (int n)
- *@n: number
- *return n
+ * _sqrt_recursion - function
+ * @n: number
+ * Return: n
  */
 
-int _sqrt_recursion (int n)
+int _sqrt_recursion(int n)
 {
-	return number(n, 0);
+	return (number(n, 0));
 }
