@@ -2,7 +2,8 @@
 
 /**
  * _pow_recursion - check the code for Holberton School students.
- *
+ * @x: vale of power
+ * @y: times of power
  * Return: Always 0.
  */
 
