@@ -1,3 +1,5 @@
+#ifndef INV_HOLBERTON_h
+#define INV_HOLBERTON_H
 void print_alphabet(void);
 int _putchar(char c);
 int _islower(int c);
@@ -19,4 +21,4 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
-int _putchar(char c);
+#endif
