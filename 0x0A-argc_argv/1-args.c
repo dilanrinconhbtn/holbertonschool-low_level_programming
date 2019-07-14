@@ -3,7 +3,8 @@
 /**
  * main - print size
  * @argc: size
- * * Return: always 0.
+ * @argv: no works here
+ * Return: always 0.
  */
 
 int main(int argc, char *argv[])
