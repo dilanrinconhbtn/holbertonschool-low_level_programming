@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * _strdup - check the code for Holberton School students.
+ * @str: string of main
+ * Return: new string.
  */
 
 char *_strdup(char *str)
