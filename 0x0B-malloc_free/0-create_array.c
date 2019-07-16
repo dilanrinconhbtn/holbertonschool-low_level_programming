@@ -22,10 +22,17 @@ char *create_array(unsigned int size, char c)
 	else
 	{
 		v = (char *)malloc(size * sizeof(char));
-		for (i = 0; i < size; i++)
+		if (v == NULL)
 		{
-			v[i] = c;
+			return ('\0');
 		}
-		return (v);
+		else
+		{
+			for (i = 0; i < size; i++)
+			{
+				v[i] = c;
+			}
+			return (v);
+		}
 	}
 }
