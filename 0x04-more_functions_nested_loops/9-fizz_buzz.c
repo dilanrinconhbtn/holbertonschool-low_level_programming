@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_diagonal - check the code for Holberton School students.
- * @n: num to compare
+ * main - check the code for Holberton School students.
+ *
  * Return: Always 0.
  */
 
@@ -30,7 +30,7 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
-	printf ("Buzz");
-	printf ("\n");
+	printf("Buzz");
+	printf("\n");
 	return (0);
 }
