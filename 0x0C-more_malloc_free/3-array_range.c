@@ -30,5 +30,6 @@ int *array_range(int min, int max)
 	{
 		arr[i] = i;
 	}
+	arr[i] = '\0';
 	return (arr);
 }
