@@ -3,8 +3,10 @@
 #include <stdlib.h>
 
 /**
- * main - check the code for Holberton School students.
- *
+ * string_nconcat - check the code for Holberton School students.
+ * @s1: string1
+ * @s2: string2
+ * @n: Bytes
  * Return: Always 0.
  */
 
@@ -43,7 +45,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		{
 			str[i + j] = s2[j];
 		}
-		str[i + j + 1] = '\0';
+		str[i + j] = '\0';
 		return (str);
 	}
 }
