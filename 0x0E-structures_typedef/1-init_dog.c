@@ -2,11 +2,11 @@
 #include "dog.h"
 
 /**
- * struct my_struct - Short description
- * @a: First member
- * @b: Second member
- * @c: Third member
- *
+ * init_dog - Short description
+ * @d: puntero to structure
+ * @name: name of dog
+ * @age: age
+ * @owner: owner
  * Description: Longer description
  */
 
