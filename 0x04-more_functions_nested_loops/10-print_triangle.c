@@ -2,8 +2,8 @@
 
 /**
  * print_triangle - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * @size: size of triangle
+ * Return: Nothing.
  */
 
 void print_triangle(int size)
