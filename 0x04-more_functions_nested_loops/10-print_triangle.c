@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * print_triangle - check the code for Holberton School students.
  *
  * Return: Always 0.
  */
@@ -12,16 +12,14 @@ void print_triangle(int size)
 
 	for (a = 0; a < size; a++)
 	{
-		for (b = 0; b < size; b++)
+		for (b = size; b > a; b--)
 		{
-			if (b < a)
-			{
+			if (b != size)
 				_putchar(' ');
-			}
-			else
-			{
-				_putchar('#');
-			}
+		}
+		for (b = 0; b <= a; b++)
+		{
+			_putchar('#');
 		}
 		_putchar('\n');
 	}
