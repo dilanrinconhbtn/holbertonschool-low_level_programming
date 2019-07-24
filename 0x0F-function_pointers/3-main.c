@@ -4,9 +4,9 @@
 
 /**
  * main - Struct op
- *
- * @op: The operator
- * @f: The function associated
+ * @argc: arguments number
+ * @argv: argments character
+ * Return: return 0
  */
 
 int main(int argc, char *argv[])
