@@ -3,9 +3,10 @@
 #include <stdlib.h>
 
 /**
- * print_elem - prints an integer
- * @elem: the integer to print
- *
+ * array_iterator - prints an integer
+ * @array: the integer to print
+ * @size: size
+ * @action: function
  * Return: Nothing.
  */
 
