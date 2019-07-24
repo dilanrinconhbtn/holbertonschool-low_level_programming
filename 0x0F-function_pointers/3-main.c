@@ -12,7 +12,6 @@
 int main(int argc, char *argv[])
 {
 	int ar1, ar3;
-	char k;
 
 	ar1 = atoi(argv[1]);
 	ar3 = atoi(argv[3]);
