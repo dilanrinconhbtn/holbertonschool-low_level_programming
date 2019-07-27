@@ -1,7 +1,8 @@
 #include "variadic_functions.h"
 /**
  * print_numbers - check the code for Holberton School students.
- *
+ * @separator: Strings
+ * @n: amount
  * Return: Always 0.
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
@@ -11,16 +12,16 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	if (separator != NULL)
 	{
-		va_start (p_numb, n);
+		va_start(p_numb, n);
 		for (i = 0; i < n; i++)
 		{
 			printf("%d", va_arg(p_numb, int));
 			if (i != (n - 1))
 			{
-				printf ("%s", separator);
+				printf("%s", separator);
 			}
 		}
 		printf("\n");
-		va_end (p_numb);
+		va_end(p_numb);
 	}
 }
