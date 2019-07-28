@@ -1,8 +1,9 @@
 #include "variadic_functions.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * print_strings - check the code for Holberton School students.
+ * @separator: string
+ * @n: count
  * Return: Always 0.
  */
 
@@ -12,7 +13,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	unsigned int i;
 	char *s;
 
-	va_start (str, n);
+	va_startA(str, n);
 	for (i = 0; i < n; i++)
 	{
 		s = va_arg(str, char *);
@@ -30,5 +31,5 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		}
 	}
 	printf("\n");
-	va_end (str);
+	va_end(str);
 }
