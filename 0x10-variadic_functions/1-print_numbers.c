@@ -8,7 +8,8 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list p_numb;
-	unsigned int i, variable = 0;
+	unsigned int i;
+	int variable = 0;
 
 	if (separator != NULL)
 	{
