@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * free_listint - check the code for Holberton School students.
+ * @head: header
  * Return: Always 0.
  */
 

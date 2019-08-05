@@ -1,8 +1,9 @@
 #include "lists.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * add_nodeint_end - check the code for Holberton School students.
+ * @head: header
+ * @n: data
  * Return: Always 0.
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
@@ -26,5 +27,5 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 			tmp = tmp->next;
 		tmp->next = node;
 	}
-	return(*head);
+	return (*head);
 }

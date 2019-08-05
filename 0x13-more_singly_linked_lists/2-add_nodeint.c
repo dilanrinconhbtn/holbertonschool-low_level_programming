@@ -1,9 +1,10 @@
 #include "lists.h"
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * add_nodeint - check the code for Holberton School students.
+ * @head: header
+ * @n: data
+ * Return: head.
  */
 
 listint_t *add_nodeint(listint_t **head, const int n)

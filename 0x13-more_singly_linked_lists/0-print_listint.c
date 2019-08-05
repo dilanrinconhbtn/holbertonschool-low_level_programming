@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_list - check the code for Holberton School students.
+ * print_listint - check the code for Holberton School students.
  * @h: pointer
  * Return: Always 0.
  */
