@@ -8,25 +8,23 @@
 
 void print_binary(unsigned long int n)
 {
-	unsigned long int pow = 1, temp = 1;
+	int i, j = 0, result;
+	unsigned long int k;
 
 	if (n == 0)
-		putchar ('0');
-	while (n > 0)
+		_putchar('0');
+	k = n;
+	while (k != 0)
 	{
-		while (n > pow)
-		{
-			pow = pow * 2;
-			if (pow > 2)
-				temp = temp * 2;
-		}
-		_putchar('1');
-		n = n - temp;
-		while (temp > n)
-		{
-			temp = temp >> 1;
-			if (temp != 0)
-				_putchar('0');
-		}
+		k = k >> 1;
+		j++;
+	}
+	for (i = j - 1; i >= 0; i--)
+	{
+		result = n >> i;
+		if (result & 1)
+			_putchar('1');
+		else
+			_putchar('0');
 	}
 }
