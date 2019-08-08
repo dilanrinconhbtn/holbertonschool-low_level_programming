@@ -1,4 +1,4 @@
-# Bit Manipulator 0x14	
+# Bit Manipulator
 
 ## 0 - Task
 Write a function that converts a binary number to an unsigned int.
