@@ -14,15 +14,16 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	if (filename == NULL)
 		return (0);
-	fd = open("Requiescat", O_RDONLY);
+	s = malloc(letters + 1);
+	fd = open(filename, O_RDONLY);
 	if (fd == -1)
 		exit(0);
-	s = malloc(sizeof(letters + 1));
+
 	if (s == NULL)
 		return (0);
-	s[letters] = '\0';
 	counter = read(fd, s, letters);
 	write(STDOUT_FILENO, s, counter);
 	close(fd);
+	free(s);
 	return (counter);
 }
