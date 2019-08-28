@@ -9,7 +9,7 @@ int main (void)
 		if (number % i ==0)
 		{
 			flag = 1;
-			for (j = 2; j <= x / 2; j++)
+			for (j = 2; j <= i / 2; j++)
 			{
 				if (i % j == 0)
 				{
