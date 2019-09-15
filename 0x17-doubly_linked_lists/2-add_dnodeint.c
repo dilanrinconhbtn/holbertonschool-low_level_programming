@@ -1,15 +1,14 @@
 #include "lists.h"
 
 /**
- * add_node - check the code for Holberton School students.
+ * add_dnodeint - check the code for Holberton School students.
  * @head:list
- * @str: double pointer
- * Return: Always 0.
+ * @n: strct
+ * Return: node.
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *node;
-	int counter = 0;
 
 	node = malloc(sizeof(dlistint_t));
 	if (node == NULL)
@@ -17,17 +16,14 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 		free(node);
 		return (NULL);
 	}
-	node->n = strdup(n);
+	node->n = n;
+	node->next = NULL;
+	node->prev = NULL;
 	if (*head != NULL)
 	{
 		node->next = *head;
+		(*head)->prev = node;
 	}
-	else if ()
-	{
-		
-	}
-	else
-		node->next = NULL;
 	*head = node;
 	return (*head);
 }
