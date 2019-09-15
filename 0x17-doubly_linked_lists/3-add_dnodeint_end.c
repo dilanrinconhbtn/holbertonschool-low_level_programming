@@ -3,14 +3,14 @@
 /**
  * add_dnodeint_end - check the code for Holberton School students.
  * @head: header
- * @n: data
+ * @n: dOAata
  * Return: Always 0.
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
-	listint_t *node, *tmp;
+	dlistint_t *node, *tmp;
 
-	node = malloc(sizeof(listint_t));
+	node = malloc(sizeof(dlistint_t));
 	if (node == NULL)
 	{
 		free(node);
@@ -30,4 +30,3 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	}
 	return (*head);
 }
-A
