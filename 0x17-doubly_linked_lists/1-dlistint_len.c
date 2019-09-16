@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
- * print_list - print dlistint
- *
- * Return: Always EXIT_SUCCESS.
+ * dlistint_len - print dlistint
+ * @h: node
+ * Return: counter
  */
 size_t dlistint_len(const dlistint_t *h)
 {
