@@ -1,6 +1,6 @@
-#C - Makefiles
+# C - Makefiles
 
-##make -f 0-Makefile
+## make -f 0-Makefile
 
 Create your first Makefile.
 
@@ -23,7 +23,7 @@ Requirements:
         SRC: the .c files
 
 
-##make -f 2-Makefile
+## make -f 2-Makefile
 
 Create your first useful Makefile.
 
@@ -40,7 +40,7 @@ Requirements:
     The all rule should recompile only the updated source files
     You are not allowed to have a list of all the .o files
 
-##make -f 3-Makefile
+## make -f 3-Makefile
 
 Requirements:
 
@@ -63,7 +63,7 @@ Requirements:
 
 
 
-##A complete Makefile
+## A complete Makefile
 
 Requirements:
 
@@ -88,7 +88,7 @@ Requirements:
     You are not allowed to have a list of all the .o files
 
 
-##Island Perimeter
+## Island Perimeter
 
 Technical interview preparation:
 
@@ -113,7 +113,7 @@ Requirements:
     Module and function must be documented
 
 
-##make -f 100-Makefile
+## make -f 100-Makefile
 
 Requirements:
 
