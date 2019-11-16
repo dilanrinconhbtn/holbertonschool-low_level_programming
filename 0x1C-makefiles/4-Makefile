@@ -1,7 +1,7 @@
 # Flags for gcc
 CC = gcc
-CFLAGS = -Wall -Werror -Wextra -pedantic
 NAME = holberton
+CFLAGS = -Wall -Werror -Wextra -pedantic
 SRC = main.c holberton.c
 OBJ = $(SRC:%.c=%.o)
 RM = rm
