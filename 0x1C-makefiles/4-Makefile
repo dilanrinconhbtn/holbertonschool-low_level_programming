@@ -1,4 +1,4 @@
-# Flags for gcc
+# CFLAGS
 CC = gcc
 NAME = holberton
 CFLAGS = -Wall -Werror -Wextra -pedantic
